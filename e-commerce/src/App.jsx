@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
@@ -16,6 +16,9 @@ import Chatbot from "./components/Chatbot";
 import "./App.css";
 
 function App() {
+  const location = useLocation();
+  const isAuthPage = location.pathname === '/login' || location.pathname === '/signup';
+
   return (
     <>
       <Navbar />
@@ -34,7 +37,7 @@ function App() {
         </Routes>
         
       </main>
-      <Chatbot />
+      {!isAuthPage && <Chatbot />}
     </>
   );
 }

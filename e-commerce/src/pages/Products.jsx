@@ -13,7 +13,8 @@ function Products() {
     const fetchProducts = async () => {
       try {
         const data = await productAPI.getAllProducts();
-        setProducts(data);
+        // If backend returns no products, fallback to predefined set
+        setProducts(data && data.length > 0 ? data : PRODUCTS);
       } catch (error) {
         console.error('Error fetching products:', error);
         // Fallback to static products if API fails

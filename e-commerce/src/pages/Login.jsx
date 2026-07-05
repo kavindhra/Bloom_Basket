@@ -39,8 +39,8 @@ function Login() {
       // Redirect to home page
       navigate('/');
     } catch (err) {
-      const errorMessage = err.response?.data?.message || 'Login failed. Please try again.';
-      setError(errorMessage);
+      // const errorMessage = err.response?.data?.message || 'Login failed. Please try again.';
+      // setError(errorMessage);
     } finally {
       setLoading(false);
     }

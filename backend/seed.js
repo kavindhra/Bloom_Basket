@@ -20,7 +20,7 @@ const groceryProducts = [
     category: 'Vegetables',
     section: 'Fresh Produce',
     stock: 100,
-    image: '/placeholder.jpg',
+    image: 'https://abcfruits.com/wp-content/uploads/2022/08/14.png',
     rating: 4.5,
     reviews: 156
   },
@@ -42,7 +42,7 @@ const groceryProducts = [
     category: 'Vegetables',
     section: 'Fresh Produce',
     stock: 120,
-    image: '/placeholder.jpg',
+    image: 'https://m.media-amazon.com/images/I/41uWBT2Hw-L._AC_UF1000,1000_QL80_.jpg',
     rating: 4.6,
     reviews: 178
   },
@@ -64,7 +64,7 @@ const groceryProducts = [
     category: 'Vegetables',
     section: 'Fresh Produce',
     stock: 110,
-    image: 'https://via.placeholder.com/300?text=Carrots',
+    image: 'https://www.lovefoodhatewaste.com/sites/default/files/styles/16_9_two_column/public/2022-06/Carrots.jpg.webp?itok=Z9YUwhCd',
     rating: 4.8,
     reviews: 189
   },
@@ -87,7 +87,7 @@ const groceryProducts = [
     category: 'Fruits',
     section: 'Fresh Fruits',
     stock: 90,
-    image: 'https://via.placeholder.com/300?text=Apples',
+    image: 'https://www.bbassets.com/media/uploads/p/l/40319252_3-fresho-apple-red-delicious.jpgcd',
     rating: 4.7,
     reviews: 198
   },
@@ -98,7 +98,7 @@ const groceryProducts = [
     category: 'Fruits',
     section: 'Fresh Fruits',
     stock: 130,
-    image: 'https://via.placeholder.com/300?text=Oranges',
+    image: 'https://www.healthyfood.com/wp-content/uploads/2017/03/In_season_June_Navel_oranges.jpg',
     rating: 4.6,
     reviews: 167
   },
@@ -120,7 +120,7 @@ const groceryProducts = [
     category: 'Fruits',
     section: 'Fresh Fruits',
     stock: 50,
-    image: 'https://via.placeholder.com/300?text=Watermelon',
+    image: 'https://weresmartworld.com/sites/default/files/styles/full_screen/public/2021-04/watermeloen_2.jpg?itok=CCYHLr5M',
     rating: 4.8,
     reviews: 145
   },
@@ -132,7 +132,7 @@ const groceryProducts = [
     category: 'Dairy',
     section: 'Dairy & Eggs',
     stock: 250,
-    image: 'https://via.placeholder.com/300?text=Milk',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDIFsAA2Oxxjni-cUs7hsV-hAoaUITLD0Vtw&s',
     rating: 4.7,
     reviews: 312
   },
@@ -143,7 +143,7 @@ const groceryProducts = [
     category: 'Dairy',
     section: 'Dairy & Eggs',
     stock: 180,
-    image: 'https://via.placeholder.com/300?text=Eggs',
+    image: 'https://m.media-amazon.com/images/I/411IYeXfFxL._AC_UF894,1000_QL80_.jpg',
     rating: 4.8,
     reviews: 267
   },
@@ -154,7 +154,7 @@ const groceryProducts = [
     category: 'Dairy',
     section: 'Dairy & Eggs',
     stock: 160,
-    image: 'https://via.placeholder.com/300?text=Yogurt',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Turkish_strained_yogurt.jpg/250px-Turkish_strained_yogurt.jpg',
     rating: 4.6,
     reviews: 189
   },
@@ -165,7 +165,7 @@ const groceryProducts = [
     category: 'Dairy',
     section: 'Dairy & Eggs',
     stock: 85,
-    image: 'https://via.placeholder.com/300?text=Cheese',
+    image: 'https://www.healthyfood.com/wp-content/uploads/2017/03/Guide_to_cheese-1024x851.jpg',
     rating: 4.5,
     reviews: 123
   },
@@ -176,7 +176,7 @@ const groceryProducts = [
     category: 'Dairy',
     section: 'Dairy & Eggs',
     stock: 95,
-    image: 'https://via.placeholder.com/300?text=Butter',
+    image: 'https://cdn.britannica.com/27/122027-050-EAA86783/Butter.jpg',
     rating: 4.7,
     reviews: 156
   },
@@ -188,7 +188,7 @@ const groceryProducts = [
     category: 'Grains',
     section: 'Grains & Cereals',
     stock: 200,
-    image: 'https://via.placeholder.com/300?text=Rice',
+    image: 'https://www.bbassets.com/media/uploads/p/l/255843_20-daawat-super-basmati-5-kg.jpg',
     rating: 4.8,
     reviews: 287
   },
@@ -199,7 +199,7 @@ const groceryProducts = [
     category: 'Grains',
     section: 'Grains & Cereals',
     stock: 220,
-    image: 'https://via.placeholder.com/300?text=Flour',
+    image: 'https://www.bbassets.com/media/uploads/p/l/30006887_9-aashirvaad-atta-whole-wheat.jpg',
     rating: 4.6,
     reviews: 198
   },
@@ -210,7 +210,7 @@ const groceryProducts = [
     category: 'Grains',
     section: 'Grains & Cereals',
     stock: 140,
-    image: 'https://via.placeholder.com/300?text=Oats',
+    image: 'https://m.media-amazon.com/images/I/71+VAwcqTKL.jpg',
     rating: 4.7,
     reviews: 167
   },
@@ -221,7 +221,7 @@ const groceryProducts = [
     category: 'Grains',
     section: 'Grains & Cereals',
     stock: 165,
-    image: 'https://via.placeholder.com/300?text=Cornflakes',
+    image: 'https://www.quickpantry.in/cdn/shop/files/Kelloggs_Corn_Flakes.webp?v=1737307755',
     rating: 4.5,
     reviews: 134
   },
@@ -232,7 +232,7 @@ const groceryProducts = [
     category: 'Grains',
     section: 'Grains & Cereals',
     stock: 190,
-    image: 'https://via.placeholder.com/300?text=Bread',
+    image: 'https://www.allrecipes.com/thmb/3Bhpg3W6sjCn0VTQ_yXLUyHr-3k=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/6788-amish-white-bread-DDMFS-4x3-6faa1e552bdb4f6eabdd7791e59b3c84.jpg',
     rating: 4.6,
     reviews: 178
   },
@@ -244,7 +244,7 @@ const groceryProducts = [
     category: 'Oils',
     section: 'Oils & Condiments',
     stock: 250,
-    image: 'https://via.placeholder.com/300?text=Oil',
+    image: 'https://www.bbassets.com/media/uploads/p/l/40129434_3-freedom-oil-sunflower.jpg',
     rating: 4.7,
     reviews: 234
   },
@@ -255,7 +255,7 @@ const groceryProducts = [
     category: 'Condiments',
     section: 'Oils & Condiments',
     stock: 300,
-    image: 'https://via.placeholder.com/300?text=Salt',
+    image: 'https://m.media-amazon.com/images/I/614mm2hYHyL._AC_UF894,1000_QL80_.jpg',
     rating: 4.8,
     reviews: 267
   },
@@ -266,7 +266,7 @@ const groceryProducts = [
     category: 'Condiments',
     section: 'Oils & Condiments',
     stock: 280,
-    image: 'https://via.placeholder.com/300?text=Sugar',
+    image: 'https://m.media-amazon.com/images/I/41XDxFG9WzL.jpg',
     rating: 4.7,
     reviews: 201
   },
@@ -277,7 +277,7 @@ const groceryProducts = [
     category: 'Spices',
     section: 'Oils & Condiments',
     stock: 150,
-    image: 'https://via.placeholder.com/300?text=Chilli',
+    image: 'https://martmines.com/wp-content/uploads/2021/06/plain-chilli-powder-1.jpg',
     rating: 4.6,
     reviews: 145
   },
@@ -288,7 +288,7 @@ const groceryProducts = [
     category: 'Spices',
     section: 'Oils & Condiments',
     stock: 130,
-    image: 'https://via.placeholder.com/300?text=Turmeric',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjRFqxsL6aknS5pop5JvDkv8CusFG0xUxpNA&s',
     rating: 4.8,
     reviews: 178
   },
@@ -300,7 +300,7 @@ const groceryProducts = [
     category: 'Beverages',
     section: 'Snacks & Beverages',
     stock: 170,
-    image: 'https://via.placeholder.com/300?text=Tea',
+    image: 'https://5.imimg.com/data5/XT/RH/NF/SELLER-9371693/1-500x500.jpg',
     rating: 4.7,
     reviews: 198
   },
@@ -311,7 +311,7 @@ const groceryProducts = [
     category: 'Beverages',
     section: 'Snacks & Beverages',
     stock: 140,
-    image: 'https://via.placeholder.com/300?text=Coffee',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1uD6Xa-LuxW65tZWsBFzpGfR5xiBNdfkoxA&s',
     rating: 4.6,
     reviews: 167
   },
@@ -322,7 +322,7 @@ const groceryProducts = [
     category: 'Snacks',
     section: 'Snacks & Beverages',
     stock: 160,
-    image: 'https://via.placeholder.com/300?text=Peanuts',
+    image: 'https://www.jiomart.com/images/product/original/rvrdtyfvyl/veganic-whole-roasted-peanuts-unsalted-groundnut-moongfali-moofali-skin-removed-peanut-200g-product-images-orvrdtyfvyl-p609593165-0-202407292007.jpg?im=Resize=(1000,1000)',
     rating: 4.5,
     reviews: 134
   },
@@ -333,7 +333,7 @@ const groceryProducts = [
     category: 'Snacks',
     section: 'Snacks & Beverages',
     stock: 200,
-    image: 'https://via.placeholder.com/300?text=Biscuits',
+    image: 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy_choc_biscuits-59ca9be.jpg',
     rating: 4.6,
     reviews: 189
   },
@@ -344,7 +344,7 @@ const groceryProducts = [
     category: 'Snacks',
     section: 'Snacks & Beverages',
     stock: 95,
-    image: 'https://via.placeholder.com/300?text=Honey',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXXPkE9peBJeg__gOysvdOvLUeEk3W1gnGtQ&s',
     rating: 4.8,
     reviews: 156
   }
