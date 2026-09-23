@@ -1,0 +1,45 @@
+name: BloomBasket CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-validate:
+    name: Build and Validate BloomBasket
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            e-commerce/package-lock.json
+            backend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: e-commerce
+        run: npm ci
+
+      - name: Build React/Vite frontend
+        working-directory: e-commerce
+        run: npm run build
+
+      - name: Install backend dependencies
+        working-directory: backend
+        run: npm ci
+
+      - name: Build backend Docker image
+        run: docker build -t bloombasket-backend:ci ./backend
+
+      - name: Build frontend Docker image
+        run: docker build -t bloombasket-frontend:ci ./e-commerce
